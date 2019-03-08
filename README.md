@@ -40,8 +40,8 @@ You will need to create a Java Web application for hosting you Webhook API.
 
 You can create this application with [Spring Boot Framework] [springboot] and Web module  
 
-#### Usage
-First you need to create a REST Controleur with a POST Mapping methode 
+#### Use
+Create a REST Controleur with a POST Mapping methode
 
 ```java
 @RestController
@@ -98,4 +98,4 @@ Apache 2.0 - See [LICENSE] for more information.
 [LICENSE]: https://www.apache.org/licenses/LICENSE-2.0
 [dialogflow]: https://dialogflow.com/
 [springboot]: https://spring.io/projects/spring-boot/
-[dialogflow-docs]: https://dialogflow.com/docs/fulfillment/how-it-works
+[dialogflow--docs]: https://dialogflow.com/docs/fulfillment/how-it-works
