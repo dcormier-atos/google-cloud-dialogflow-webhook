@@ -13,7 +13,7 @@ public class QueryResult {
 	/**
 	 * The original conversational query text
 	 */
-	private String queryText;
+	private String queryText = null;
 	
 	/**
 	 * The language that was triggered during intent detection
@@ -52,7 +52,7 @@ public class QueryResult {
 	/**
 	 * The collection of rich messages to present to the user.
 	 */
-	private Message[] fulfillmentMessages;
+	private Message[] fulfillmentMessages = null;
 	
 	/**
 	 * If the query was fulfilled by a webhook call, 
@@ -64,7 +64,7 @@ public class QueryResult {
 	/**
 	 * The collection of output contexts
 	 */
-	private Context[] outputContexts;
+	private Context[] outputContexts = null;
 	
 	/**
 	 * The intent that matched the conversational query
