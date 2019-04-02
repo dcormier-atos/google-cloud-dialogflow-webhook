@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
   <groupId>com.google.cloud</groupId>
   <artifactId>google-cloud-dialogflow-webhook</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <name>Webhook for Dialogflow</name>
   <description>Contain all neccessary object to load wekhook dialogflow request and response</description>
   <dependencies>
