@@ -3,11 +3,15 @@
  */
 package google.cloud.dialogflow.webhook.context;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
+
 /**
  * The basic card message. Useful for displaying information.
  * @author DCR
  *
  */
+@JsonInclude(Include.NON_NULL)
 public class BasicCard {
 
 	/**

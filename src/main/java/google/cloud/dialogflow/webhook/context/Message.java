@@ -5,12 +5,16 @@ package google.cloud.dialogflow.webhook.context;
 
 import java.util.HashMap;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
+
 /**
  * Corresponds to the Response field in the Dialogflow console
  * 
  * @author DCR
  *
  */
+@JsonInclude(Include.NON_NULL)
 public class Message {
 	
 	
