@@ -7,6 +7,20 @@
   <version>1.0.1-SNAPSHOT</version>
   <name>Webhook for Dialogflow</name>
   <description>Contain all neccessary object to load wekhook dialogflow request and response</description>
+  <url>https://github.com/dcormier-atos/google-cloud-dialogflow-webhook</url>
+  
+  <scm>
+    <url>https://github.com/dcormier-atos/google-cloud-dialogflow-webhook.git</url>
+  </scm>
+  
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
